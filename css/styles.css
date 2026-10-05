@@ -1,0 +1,250 @@
+#page {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(165, 159, 103);
+    border-radius: 0px;
+    opacity: 0.9;
+}
+
+body {
+    background-image: url("../img/img1.jpg");
+    font-family: Garamond;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteneur {
+    width: 85px;
+    height: 150px;
+}
+
+#conteneur img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+nav {
+
+    border: solid 2px black;
+    border-width: 2px 0 1px 0;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 3fr 1fr;
+    background-color: #555;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 0;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    width: 115px;
+    padding: 5px;
+    color: black;
+
+}
+
+nav ul a:hover {
+    text-decoration: none;
+    background-color: blue;
+    color: rgb(225, 225, 225);
+}
+
+nav a:active {
+    color: rgb(172, 172, 172);
+    background-color: white;
+}
+
+footer {
+    color: black;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+ul {
+
+    padding-left: 20px;
+}
+
+.zone {
+    display: flex;
+    border-right: 1px solid;
+}
+
+.zone a {
+
+    text-decoration: none;
+    color: white;
+}
+
+#main-index {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.first {
+    border-right: 2px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bas {
+    display: grid;
+    border-top: 2px solid;
+}
+
+img .img-nouvelle,
+.img-index {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nouvelle {
+    margin: 20px;
+}
+
+.renforcer {
+    background-color: blue;
+}
+
+.comment label {
+    display: inline-block;
+    margin: 10px;
+    width: 135px;
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+}
+
+.photo {
+    max-width: 250px;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: black;
+}
+
+.gal {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.envoi {
+    text-align: center;
+    height: 50px;
+}
+
+
+.form-section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+}
+
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input,
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #555;
+}
+
+fieldset {
+    width: 100%;
+}
+
+.const {
+    display: block;
+    margin: auto;
+}
+
+.chantier {
+    text-align: center;
+    font-size: 30px;
+}
